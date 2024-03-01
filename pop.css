@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+@page {
+	margin: 5mm;
+	size: 210mm, 145mm;
+}
+* {
+	margin: 0mm;
+	font-size:14px;
+	line-height:14px;
+}
+
+body {font-family:"Myriad Web Pro"; margin:10px;}
+
+a {color:#000; text-decoration:none; font-size:18px;}
+
+a:visited {color:#000; text-decoration:none;}
+
+p, td, th {
+	font-size:24px;
+	line-height:28px;
+}
+
+#wrapper { width: 1024px;
+margin-left:-20px;
+padding-top:0px;
+background-color: #FFF;
+float: left;
+}
+
+table, th {
+	border:solid 1px #000;
+	font-size:14px;
+	line-height:12px;
+}
+td{border:solid 1px #000; font-size:15px; padding:4px; line-height:12px;}
+
+#company {margin-top:5px; margin-bottom:0px; padding:0px; width:100%; text-align:center; line-height:40px; font-size:40px; font-weight:bold; font-stretch:extra-expanded; float:left;}
+
+#slogan {font-size:30px; line-height:30px; width:100%;}
+
+#logo {float:left;}
+
+#dealer {float:left; border-top:3px solid; padding-top:2px;}
+#dealer img {height:30px; margin:0 auto;}
+
+#address{width:300px; margin-top:25px; font-size:14px; line-height:15px; float:right;}
+
+
+#invoice {width:1020px; float:left; margin-top:20px;}
+
+#party {float:left; font-size:22px;margin-left:10px; width:400px; line-height:26px;}
+#party b {font-weight:bold; font-size:22px;}
+
+#bill {float:left; width:100%; margin-top:10px; font-size:14px;}
+
+#invoiceno{float:right; margin-left:10px;text-align:left;}
+#invoiceno table {float:right; width:400px;}
+
+#noborder td {border:none; text-align:left; font-size:15px; line-height:10px; width:300px; border:1px solid;}
+
+#terms {font-size:10px;float:left;}
+
+#newdiv {float:none; height:350px; width:595px; clear:both; border:1px solid; padding-top:10px; margin-bottom:10px; background:url(images/watermark.jpg) no-repeat center; margin:0 auto; }
+
+#imgset{width:100px;height:100px;border:1px solid #000; position:absolute;}

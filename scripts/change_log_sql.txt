@@ -1,0 +1,45 @@
+INSERT INTO `cloudice_knipss_2022`.`general_settings` (`sno`, `description`, `value`) VALUES (NULL, 'company', 'Kamla Nehru Institute of Physical and Social Sciences');
+
+ALTER TABLE `nav` CHANGE `code` `parent` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,
+CHANGE `link` `hyper_link` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,
+CHANGE `display` `link_description` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ;
+
+ALTER TABLE `nav` ADD `icon_image` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL ,
+ADD `color` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL ,
+ADD `sub_parent` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL ,
+ADD `sort_no` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL ;
+RENAME TABLE `cloudice_knipss_2022`.`nav` TO `cloudice_knipss_2022`.`navigation` ;
+
+insert into navigation (parent, hyper_link, link_description) values 
+("P", "#", "Accounts"),
+("P", "#", "Admin"),
+("P", "#", "Counsellor"),
+("P", "#", "Exam"),
+("P", "#", "Library"),
+("P", "#", "Payroll"),
+("P", "#", "Reports"),
+("P", "#", "SFC");
+
+UPDATE `navigation` SET icon_image = 'fa fa-angle-double-right';
+update `navigation` set parent=164 where parent='admin';
+update `navigation` set parent=163 where parent='accounts';
+update `navigation` set parent=164 where parent='admin';
+update `navigation` set parent=165 where parent='counsellor';
+update `navigation` set parent=166 where parent='exam';
+update `navigation` set parent=167 where parent='library';
+update `navigation` set parent=168 where parent='payroll';
+update `navigation` set parent=169 where parent='reports';
+update `navigation` set parent=170 where parent='sfc';
+
+CREATE TABLE IF NOT EXISTS `user_access` (
+  `sno` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` varchar(50) CHARACTER SET latin1 DEFAULT NULL,
+  `file_name` varchar(100) CHARACTER SET latin1 DEFAULT NULL,
+  `created_by` varchar(100) DEFAULT NULL,
+  `creation_time` varchar(100) DEFAULT NULL,
+  `edited_by` varchar(100) DEFAULT NULL,
+  `edition_time` varchar(100) DEFAULT NULL,
+  `admin_remarks` varchar(200) DEFAULT NULL,
+  `branch` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`sno`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8

@@ -1,0 +1,292 @@
+/* media Query */
+@media (max-width: 1400px) {
+  .container {
+    width: 75%;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    width: 82%;
+  }
+}
+@media (max-width: 1070px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 95%;
+  }
+}
+@media (max-width: 920px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 880px) {
+  td,
+  th {
+    padding: 1px 3px;
+  }
+  .body {
+    font-size: 0.7rem;
+  }
+
+  .img {
+    padding: 10px;
+  }
+  .clg_name {
+    margin-left: 15px;
+  }
+  .clg_en {
+    font-size: 1.5rem;
+  }
+
+  .clg_hi {
+    font-size: 1.5rem;
+  }
+
+  .unique_id_num {
+    font-size: 1.1rem;
+  }
+
+  .student_img {
+    width: 50%;
+    height: auto;
+  }
+  .student_sig {
+    width: 50%;
+    height: auto;
+  }
+  .btn {
+    /* text-shadow: 2px 2px 3px #000; */
+    padding: 0.6rem 1.6rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+    margin: 3px;
+  }
+}
+@media (max-width: 768px) {
+  td,
+  th {
+    font-size: 0.7rem;
+  }
+  .body {
+    font-size: 0.4rem;
+  }
+  .container {
+    width: 70%;
+  }
+  .edu_detail_head {
+    font-size: 0.8rem;
+  }
+  .img {
+    padding: 5px;
+  }
+  .img img {
+    width: 90px;
+    height: auto;
+  }
+  .clg_name {
+    margin-left: 8px;
+  }
+  .clg_en {
+    font-size: 1rem;
+  }
+
+  .clg_hi {
+    font-size: 1rem;
+  }
+
+  .unique_id_num {
+    font-size: 0.6rem;
+  }
+
+  .student_img {
+    width: 50%;
+    height: auto;
+  }
+  .student_sig {
+    width: 50%;
+    height: auto;
+  }
+  .btn {
+    font-size: 0.7rem;
+    /* text-shadow: 2px 2px 3px #000; */
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+    margin: 2px;
+  }
+}
+@media (max-width: 706px) {
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    width: 85%;
+  }
+  .agree {
+    width: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 576px) {
+  td,
+  th {
+    font-size: 0.4rem;
+  }
+  .body {
+    font-size: 0.4rem;
+  }
+  .container {
+    width: 60%;
+  }
+  .edu_detail_head {
+    font-size: 0.6rem;
+  }
+  .img {
+    padding: 3px;
+  }
+  .img img {
+    width: 70px;
+    height: auto;
+  }
+  .clg_name {
+    margin-left: 5px;
+  }
+  .clg_en {
+    font-size: 0.7rem;
+  }
+
+  .clg_hi {
+    font-size: 0.7rem;
+  }
+
+  .unique_id_num {
+    font-size: 0.5rem;
+  }
+
+  .student_img {
+    width: 30%;
+    height: auto;
+  }
+  .student_sig {
+    width: 30%;
+    height: auto;
+  }
+  .btn {
+    font-size: 0.4rem;
+    /* text-shadow: 2px 2px 3px #000; */
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+    margin: 2px;
+  }
+  .agree {
+    width: 8px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 82%;
+  }
+}
+@media (max-width: 520px) {
+  .container {
+    width: 84%;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 86%;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 86%;
+  }
+}
+@media (max-width: 460px) {
+  .container {
+    width: 88%;
+  }
+}
+
+@media (max-width: 440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 94%;
+  }
+}
+@media (max-width: 350px) {
+  td,
+  th {
+    font-size: 0.2rem;
+  }
+  .body {
+    font-size: 0.2rem;
+  }
+  .container {
+    width: 80%;
+  }
+  .edu_detail_head {
+    font-size: 0.3rem;
+  }
+  .img {
+    padding: 2px;
+  }
+  .img img {
+    width: 50px;
+    height: auto;
+  }
+  .clg_name {
+    margin-left: 3px;
+  }
+  .clg_en {
+    font-size: 0.5rem;
+  }
+
+  .clg_hi {
+    font-size: 0.5rem;
+  }
+
+  .unique_id_num {
+    font-size: 0.3rem;
+  }
+
+  .student_img {
+    width: 30%;
+    height: auto;
+  }
+  .student_sig {
+    width: 30%;
+    height: auto;
+  }
+  .btn {
+    font-size: 0.3rem;
+    /* text-shadow: 2px 2px 3px #000; */
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+    margin: 2px;
+  }
+  .agree {
+    width: 7px;
+  }
+}

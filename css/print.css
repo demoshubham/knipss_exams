@@ -1,0 +1,38 @@
+td,
+th {
+  padding: 3px 5px;
+  text-align: left;
+}
+
+body {
+  background-color: white;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+.img {
+  padding: 5px;
+}
+.clg_name {
+  margin-left: 10px;
+}
+.clg_en {
+  font-size: 1.5rem;
+}
+
+.clg_hi {
+  font-size: 1.5rem;
+}
+
+.unique_id_num {
+  font-size: 1.1rem;
+}
+
+.student_img {
+  width: 30%;
+}
+.student_sig {
+  width: 40%;
+}

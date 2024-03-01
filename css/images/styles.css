@@ -1,0 +1,182 @@
+@charset "utf-8";
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+body  {
+float:left;
+font-size: 75%;
+color: #222; 
+font-family: Georgia, serif;
+margin:20px;
+}
+
+#content{
+	float:left;
+	margin-left: 164px;;
+	width: 1000px;
+	
+}
+
+#content1{
+	float:left;
+	margin-left: 164px;
+	width: 1000px;
+	padding-top:20px;
+	
+}
+
+#content3{
+	float:left;
+	margin-left:164px;
+	width: 1000px;
+	padding-top:10px;
+	
+}
+
+
+
+#logo {
+width: 500px;
+float:left;
+margin-top:-60px;
+}
+
+#logodetail {
+width: 500px;
+font-size:14px;
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+float:left;
+}
+
+
+#complogo {
+width: 490px;
+float:right;
+height: 180px;
+}
+
+.clear{
+
+clear:both;
+display:block;
+overflow:hidden;
+visibility:hidden;
+width:0;
+height:0}
+
+#main { width:1000px; }
+
+#top {	
+	background: url(images/top1.gif) no-repeat;
+	height: 15px;
+
+}
+
+#center {
+	float:left;
+	width:1024px;
+	background: url(images/center.gif) no-repeat;
+	height: auto;
+	
+}
+
+#bottom {
+	
+	background: url(images/bottom.gif) no-repeat;
+	height: 10px;
+	
+}
+#module { width:940px; margin-left:30px;}
+
+#module img { padding-left: 30px;
+padding-bottom: 10px;
+padding-top:10px;}
+#login { 
+margin-left:300px;
+background: url(images/quicklinks.gif) no-repeat;
+width: 350px;
+height: 250px;
+padding-top: 10px;
+}
+
+#user { padding-top: 10px;
+padding-left: 15px; 
+height: auto; 
+float: left;}
+
+h2 { font-size:28px;; 
+font-weight: bold;
+margin-bottom:3px; 
+letter-spacing: 1px;}
+
+.orange {color: #f56b06;}
+
+#formcontent {width:330px;}
+
+
+
+
+#fdetail { float:left; width:330px;}
+
+#detail { float:left; width:280px;}
+
+#ima {float: right; width: 30px;
+padding-right: 14px;
+padding-top: 6px;
+padding-bottom: 6px;
+
+}
+
+#formcontent label{padding:6px 0 6px 10px;
+display:block;
+float: left;
+background:url('images/arrow.jpg') no-repeat 0 15px;
+font-size: 16px;
+cursor: pointer;
+width:110px;
+letter-spacing:0.5px;
+}
+
+#formcontent .msg.icon{padding:5px 5px 5px 30px; margin:0 10px; position:absolute}
+label span.name{
+	padding:0 0 0 3px;
+	font-style:italic;
+	color:#d81614;
+	font-size:12px;
+	}
+
+#formcontent input{border:1px solid #aaa5a2;}
+
+.input{padding:3px;
+display:block;
+border:1px solid #aaa5a2;
+font-size: 14px;
+}	
+
+span.required{color:red;width:15px; position: relative; top:7px; padding-right:5px}
+span.required{float:left}
+.submit{font-family: Georgia;
+display:block;
+cursor:pointer;
+background:#000;
+text-align:center;
+color:#fff;
+padding:7px 10px;
+border:none;
+margin-top:10px;
+}
+	
+.footer {border-top: 2px #d0d0cf solid; 
+text-align: center; 
+margin: 40px 0 0 0;}
+
+.footer a { color:#000;
+text-decoration: none;
+}
+.footer a:hover { color: #d81614;
+text-decoration:underline;
+}

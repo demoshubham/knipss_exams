@@ -1,0 +1,142 @@
+[06-Jun-2023 11:49:02 Asia/Calcutta] PHP Warning:  Undefined array key "id" in /home3/cloudice/knionline.cloudice.in/admin/settings.php on line 168
+[06-Jun-2023 11:49:02 Asia/Calcutta] PHP Warning:  Undefined array key "uname" in /home3/cloudice/knionline.cloudice.in/admin/settings.php on line 168
+[06-Jun-2023 12:10:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/cloudice/knionline.cloudice.in/admin/settings.php:35
+Stack trace:
+#0 /home3/cloudice/knionline.cloudice.in/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from a...')
+#1 /home3/cloudice/knionline.cloudice.in/admin/printing_form.php(22): execute_query('select * from a...', Object(mysqli))
+#2 {main}
+  thrown in /home3/cloudice/knionline.cloudice.in/admin/settings.php on line 35
+[06-Jun-2023 12:11:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/cloudice/knionline.cloudice.in/admin/settings.php:35
+Stack trace:
+#0 /home3/cloudice/knionline.cloudice.in/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from a...')
+#1 /home3/cloudice/knionline.cloudice.in/admin/printing_form.php(22): execute_query('select * from a...', Object(mysqli))
+#2 {main}
+  thrown in /home3/cloudice/knionline.cloudice.in/admin/settings.php on line 35
+[10-Sep-2023 23:33:41 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:33:41 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:34:08 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:34:08 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:34:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[10-Sep-2023 23:34:32 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:34:32 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:34:52 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:34:52 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:34:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[10-Sep-2023 23:35:00 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:35:00 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:35:08 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:35:08 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[10-Sep-2023 23:35:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[25-Sep-2023 01:16:53 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[25-Sep-2023 01:16:53 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:06 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:06 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:20 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:20 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:23:29 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:29 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:40 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:40 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:23:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:26:11 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:26:11 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:26:23 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:26:23 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:26:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:27:03 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:27:03 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:27:27 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:27:27 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:27:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:27:34 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:27:34 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:27:50 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:27:50 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:27:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:28:03 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:28:03 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:28:21 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:28:21 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:28:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:28:32 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:28:32 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:28:48 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:28:48 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:28:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:31:16 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:31:16 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:31:36 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:31:36 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:31:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:51:53 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:51:53 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:51:53 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
+[28-Sep-2023 07:51:58 Asia/Calcutta] PHP Warning:  include(get_computer.php): Failed to open stream: No such file or directory in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:51:58 Asia/Calcutta] PHP Warning:  include(): Failed opening 'get_computer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/knipssexams/public_html/admin/index.php on line 7
+[28-Sep-2023 07:51:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'knipssex_2023.user' doesn't exist in /home1/knipssexams/public_html/admin/settings.php:35
+Stack trace:
+#0 /home1/knipssexams/public_html/admin/settings.php(35): mysqli_query(Object(mysqli), 'select * from u...')
+#1 /home1/knipssexams/public_html/admin/index.php(27): execute_query('select * from u...', Object(mysqli))
+#2 {main}
+  thrown in /home1/knipssexams/public_html/admin/settings.php on line 35
